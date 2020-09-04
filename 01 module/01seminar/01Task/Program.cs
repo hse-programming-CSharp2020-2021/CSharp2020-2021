@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace seminar
+namespace Task
 {
     class MainClass
     {
