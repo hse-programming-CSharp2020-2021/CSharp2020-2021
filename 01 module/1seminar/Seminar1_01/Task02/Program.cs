@@ -4,11 +4,12 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Enter your name:");
+        Console.WriteLine("Введите ваше имя:");
         // описываем переменную максимально близко
         // к месту первого использовани в коде
         string inputStr = Console.ReadLine();
-        Console.WriteLine("Hi, " + inputStr + "!");
+        Console.WriteLine("Приветствую Вас, " + inputStr + "!");
+        Console.WriteLine("Нажмите Enter для завершения!");
         Console.ReadKey();
     }
 }
